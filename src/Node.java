@@ -17,7 +17,7 @@ class BinaryTree<T>{
     }
     private Node<T> insertNode(Node<T> node, T data){
         if (node == null){
-            return new Node<T>(data);
+            return new Node<>(data);
         }
 
         if (data.toString().compareTo(node.data.toString()) <= 0) {
